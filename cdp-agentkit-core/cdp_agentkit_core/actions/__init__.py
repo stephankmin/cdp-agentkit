@@ -9,6 +9,8 @@ from cdp_agentkit_core.actions.request_faucet_funds import RequestFaucetFundsAct
 from cdp_agentkit_core.actions.trade import TradeAction
 from cdp_agentkit_core.actions.transfer import TransferAction
 from cdp_agentkit_core.actions.wow.create_token import WowCreateTokenAction
+from cdp_agentkit_core.actions.deploy_zora_collection import DeployZoraCollectionAction
+from cdp_agentkit_core.actions.create_token_on_zora_collection import CreateTokenOnZoraCollectionAction
 
 
 # WARNING: All new CdpAction subclasses must be imported above, otherwise they will not be discovered
@@ -36,4 +38,6 @@ __all__ = [
     "TransferAction",
     "WowCreateTokenAction",
     "CDP_ACTIONS",
+    "DeployZoraCollectionAction",
+    "CreateTokenOnZoraCollectionAction",
 ]

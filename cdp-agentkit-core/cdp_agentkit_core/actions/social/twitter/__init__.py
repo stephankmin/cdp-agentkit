@@ -12,3 +12,5 @@ from cdp_agentkit_core.actions.social.twitter.post_tweet import (
 )
 from cdp_agentkit_core.actions.social.twitter.post_tweet import PostTweetInput as PostTweetInput
 from cdp_agentkit_core.actions.social.twitter.post_tweet import post_tweet as post_tweet
+from cdp_agentkit_core.actions.social.twitter.get_tweets import GetTweetsInput as GetTweetsInput
+from cdp_agentkit_core.actions.social.twitter.get_tweets import get_tweets as get_tweets
